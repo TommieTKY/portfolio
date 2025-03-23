@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg,
+                rgba(255, 182, 193, 0.3),
+                /* Light Pink */
+                rgba(255, 223, 186, 0.3),
+                /* Light Orange */
+                rgba(255, 255, 186, 0.3),
+                /* Light Yellow */
+                rgba(186, 255, 201, 0.3),
+                /* Light Green */
+                rgba(186, 225, 255, 0.3),
+                /* Light Blue */
+                rgba(209, 186, 255, 0.3)
+                /* Light Purple */
+            );
+}
+
+.navbar {
+    background: linear-gradient(135deg,
+                rgba(255, 182, 193, 0.2),
+                rgba(255, 223, 186, 0.2),
+                rgba(255, 255, 186, 0.2),
+                rgba(186, 255, 201, 0.2),
+                rgba(186, 225, 255, 0.2),
+                rgba(209, 186, 255, 0.2)
+            );
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 9rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.borderStyle {
+    border: 10px solid;
+    border-image: linear-gradient(-45deg,
+            rgba(255, 182, 193, 1),
+            rgba(255, 223, 186, 1),
+            rgba(255, 255, 186, 1),
+            rgba(186, 255, 201, 1),
+            rgba(186, 225, 255, 1),
+            rgba(209, 186, 255, 1)) 1;
+}
+
+.contacticon{
+    color: peru;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.skillicon {
+    margin: 0 0.5rem;
+    width: 5rem;
+}
+
+.screenshot {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
