@@ -5,10 +5,6 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Intro from './components/Intro';
-// import { useState, useRef } from 'react';
-// import Section from './components/Section';
-// import { PROJECTS } from './Project';
-// import EnterAnimation from './components/EnterAnimation';
 
 function App() {
   return (
