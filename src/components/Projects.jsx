@@ -1,4 +1,4 @@
-import { PROJECTLIST } from "../ProjectList"
+import { PROJECTLIST } from "../ProjectList.js"
 
 export default function Projects() {
     return (

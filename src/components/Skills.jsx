@@ -1,4 +1,4 @@
-import { SKILLLIST } from "../skillList"
+import { SKILLLIST } from "../SkillList.js"
 
 export default function Skills() {
     return (
