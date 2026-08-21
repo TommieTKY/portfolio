@@ -1,20 +1,28 @@
 const PROJECTLIST = [
+    {
+    link: "https://www.interpria.com/tour/tommietong-at-sha-tin-che-kung-temple",
+    title: "Interpria",
+    description:
+      "Architected and deployed a full-stack tour guide booking platform utilizing Next.js for server-side rendering, fast load speeds, and improved SEO performance. Integrated Stripe API as a third-party payment gateway to enable secure, real-time online checkout and transaction processing.",
+    skills: ["Next.js", "Tailwind", "Stripe API"],
+    image: `./image/project/interpria.jpeg`,
+  },
   {
     link: "https://grocery-price-checker-front-end.vercel.app/",
     title: "Grocery Price Checker",
     description:
-      "A React-based web application for comparing grocery prices across stores and categories, with interactive filtering, routing, and price‐per‐unit calculations.",
+      "A React-based web application for comparing grocery prices across stores and categories, with interactive filtering, routing, and price-per-unit calculations.",
     skills: ["React", "Bootstrap"],
     image: `./image/project/grocery-price-checker-front-end.jpeg`,
   },
-  {
-    link: "https://discover-toronto-events-on-map.onrender.com/",
-    title: "Discover Toronto Events on Map",
-    description:
-      "This project is a web application that displays upcoming Toronto events on an interactive Google Map, allowing users to explore event details and filter them by date. It helps users easily plan outings and discover what's happening around the city.",
-    skills: ["Express.js", "Node.js", "Google Maps API"],
-    image: "./image/project/discover-toronto-events-on-map.jpeg",
-  },
+  // {
+  //   link: "https://discover-toronto-events-on-map.onrender.com/",
+  //   title: "Discover Toronto Events on Map",
+  //   description:
+  //     "This project is a web application that displays upcoming Toronto events on an interactive Google Map, allowing users to explore event details and filter them by date. It helps users easily plan outings and discover what's happening around the city.",
+  //   skills: ["Express.js", "Node.js", "Google Maps API"],
+  //   image: "./image/project/discover-toronto-events-on-map.jpeg",
+  // },
   {
     link: "https://springgreen-trout-818076.hostingersite.com/",
     title: "Toronto Attractions",
