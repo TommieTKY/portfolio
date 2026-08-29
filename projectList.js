@@ -36,7 +36,7 @@ const PROJECTLIST = [
     title: "KidSpark",
     description:
       "A comprehensive platform for managing after-school programs and instructors with full CRUD functionality.",
-    skills: ["Laravel", "PHP", "Boostrap"],
+    skills: ["Laravel", "PHP", "Bootstrap"],
     image: "./image/project/kidspark.png",
   },
   {
