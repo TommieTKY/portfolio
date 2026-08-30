@@ -16,11 +16,11 @@
   <title>Tommie Tong | Web Developer</title>
 </head>
 
-<body>
+<body class="bg-light-subtle">
   <header>
-    <nav class="navbar navbar-expand-sm px-4 py-2 bg-light shadow fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark px-4 py-3 shadow fixed-top" style="background-color: var(--primary-green);">
       <div class="container-fluid">
-        <a class="navbar-brand fs-3" href="#">
+        <a class="navbar-brand fs-3 font-weight-bold" href="#">
           Tommie Tong
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,7 +28,7 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link" href="#aboutme">About Me</a>
             <a class="nav-link" href="#projects">Projects</a>
@@ -41,10 +41,11 @@
   </header>
 
   <main class="container-fluid p-5 mt-5 text-center">
+
     <section class="container-fluid p-5">
       <h1 class="my-4">Hi, I'm Tommie.</h1>
       <h3 class="my-4">Accessibility-Focused Web Developer | WordPress Bilingual Developer</h3>
-      <div class="p-5 d-flex flex-column gap-4">
+      <div class="p-5 d-flex flex-column gap-3 text-start mx-auto" style="max-width: 1000px;">
         <p>
           Full-Stack Web Developer with hands-on experience building end-to-end web applications, designing relational databases, and architecting modern front-end and back-end features.
         </p>
@@ -54,18 +55,18 @@
       </div>
       <div class="d-flex justify-content-center gap-5">
         <button class="btn btn-success" onclick="window.location.href='#projects'">View Projects</button>
-        <a href="https://drive.google.com/file/d/1sdx5NJ8PFPxrvsHGTpAkM2Bg6s1vdSor/view?usp=sharing" download class="btn btn-info">Download Resume (PDF)</a>
+        <a href="https://drive.google.com/file/d/1sdx5NJ8PFPxrvsHGTpAkM2Bg6s1vdSor/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-info">Download Resume (PDF)</a>
       </div>
     </section>
 
     <section class="sectiontop" id="aboutme">
-      <div class="container-fluid borderStyle p-4">
-        <h2 class="my-1">About Me</h2>
-        <div class="lineHeight aboutmeContainer">
+      <div class="container-fluid p-4">
+        <h2 class="mb-4">About Me</h2>
+        <div class="lineHeight aboutmeContainer text-start mx-auto" style="max-width: 1200px;">
           I build fully accessible, high-performing, and multilingual web applications that reach every user while satisfying strict legal compliance standards (WCAG 2.1 / AODA). Combining a solid full-stack foundation with hands-on experience in inclusive UI design and language localization, I help businesses, non-profits, and institutions expand their audience without sacrificing performance or design. 
         </div>
         <h3 class="my-4">Core Services</h3>
-        <div class="lineHeight aboutmeContainer">
+        <div class="lineHeight aboutmeContainer text-start mx-auto" style="max-width: 1200px;">
           <ul>
             <li>
               Accessibility Auditing & Remediation (WCAG / AODA): Auditing and upgrading existing websites to meet WCAG 2.1 AA standards—optimizing semantic HTML, screen reader compatibility (ARIA), keyboard navigation, and color contrast ratios.
@@ -75,7 +76,7 @@
           </ul>
         </div>
         <h3 class="my-4">What Makes Me Stand Out</h3>
-        <div class="lineHeight aboutmeContainer">
+        <div class="lineHeight aboutmeContainer text-start mx-auto" style="max-width: 1200px;">
           <ul>
             <li>
               Native Multilingual Fluency: With native/professional fluency in English, Cantonese, and Mandarin, I ensure complex site localization handles context, design alignment, and script flow naturally.
@@ -89,7 +90,7 @@
     </section>
 
     <section class="sectiontop" id="projects">
-      <div class="container-fluid p-4 borderStyle" id="projects">
+      <div class="container-fluid p-4" id="projects">
         <h2 class="mb-4">Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 g-5 p-4" id="projectContainer">
         </div>
@@ -97,7 +98,7 @@
     </section>
 
     <section class="sectiontop" id="skills">
-      <div class="container-fluid p-4 borderStyle" id="skills">
+      <div class="container-fluid p-4" id="skills">
         <h2>Skills</h2>
         <div class="d-flex justify-content-center flex-column flex-wrap p-5 gap-3" id="skillContainer">
         </div>
@@ -105,7 +106,7 @@
     </section>
 
     <section class="sectiontop" id="contact">
-      <div class="container-fluid p-4 borderStyle">
+      <div class="container-fluid p-4">
         <h2 class="mb-4">Contact</h2>
         <p>I'm currently open to full-stack development opportunities and web project collaborations. Feel free to reach out!</p>
         <p>Email: wingtong1809cuhk@gmail.com</p>
@@ -122,7 +123,7 @@
     </section>
   </main>
 
-  <footer class="container-fluid mt-4 text-bg-secondary p-3 text-center">
+  <footer class="container-fluid mt-4 p-3 text-center text-white" style="background-color: var(--primary-green);">
     <div>&copy; 2026 Kit Ying Tong. All rights reserved.</div>
   </footer>
 </body>

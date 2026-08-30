@@ -92,29 +92,37 @@ const PROJECTLIST = [
 document.addEventListener("DOMContentLoaded", () => {
   let projectContainer = document.getElementById("projectContainer");
 
-  PROJECTLIST.forEach((project) => {
-    let skillsHTML = "";
-    project.skills.forEach((skill) => {
-      skillsHTML += `<span class="badge bg-warning me-2">${skill}</span>`;
-    });
+  const projectsHTML = PROJECTLIST.map((project) => {
+    const skillsHTML = project.skills
+      .map(
+        (skill) =>
+          `<span class="badge rounded-pill bg-success-subtle text-secondary border border-success-subtle fw-normal mx-2 p-2">${skill}</span>`
+      )
+      .join("");
 
-    projectContainer.innerHTML += `
+    return `
     <div class="col">
-        <a href="${project.link}" class="text-decoration-none">
-        <div class="card h-100">
-            <div class="card-header bg-warning-subtle">${project.title}</div>
-            <div class="px-4 pt-4">
-            <img src="${project.image}" class="card-img-top border border-dark-subtle" alt="${project.title}">
+      <a href="${project.link}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
+        <div class="card h-100 border border-secondary-subtle shadow-sm rounded-3">          
+          <div class="ratio ratio-16x9 border-bottom border-light-subtle">
+            <img src="${project.image}" class="card-img-top" alt="${project.title}">
+          </div>
+
+          <div class="card-body d-flex flex-column justify-content-between p-4">
+            <div>
+              <h5 class="card-title fw-bold text-dark mb-3">${project.title}</h5>
+              <p class="card-text text-secondary small">${project.description}</p>
             </div>
-            <div class="card-body">
-            <p class="card-text">${project.description}</p>
+            
+            <div class="pt-3 border-top border-light-subtle mt-4">
+              ${skillsHTML}
             </div>
-            <div class="card-footer bg-light">
-            ${skillsHTML}
-            </div>
+          </div>
         </div>
-        </a>
+      </a>
     </div>
     `;
-  });
+  }).join("");
+
+  projectContainer.innerHTML = projectsHTML;
 });
