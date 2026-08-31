@@ -93,12 +93,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let projectContainer = document.getElementById("projectContainer");
 
   const projectsHTML = PROJECTLIST.map((project) => {
-    const skillsHTML = project.skills
-      .map(
-        (skill) =>
-          `<span class="badge rounded-pill bg-success-subtle text-secondary border border-success-subtle fw-normal mx-2 p-2">${skill}</span>`
-      )
-      .join("");
+    const skillsHTML = project.skills.map((skill) =>
+      `<span class="badge rounded-pill bg-success-subtle text-secondary border border-success-subtle fw-normal px-2 py-1">${skill}</span>`
+    ).join("");
 
     return `
     <div class="col">
@@ -114,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <p class="card-text text-secondary small">${project.description}</p>
             </div>
             
-            <div class="pt-3 border-top border-light-subtle mt-4">
+            <div class="pt-3 border-top border-light-subtle mt-4 d-flex flex-wrap gap-2 justify-content-center">
               ${skillsHTML}
             </div>
           </div>

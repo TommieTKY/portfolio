@@ -7,6 +7,18 @@
   margin: 0 1rem;
 }
 
+/* Brighter default white (reduce visible) */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
+/* Hover state*/
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffffff !important;
+}
+
 main {
   display: flex;
   flex-direction: column;
