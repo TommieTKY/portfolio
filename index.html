@@ -54,8 +54,8 @@
         </p>
       </div>
       <div class="d-flex justify-content-center gap-5">
-        <button class="btn btn-success" onclick="window.location.href='#projects'">View Projects</button>
-        <a href="https://drive.google.com/file/d/1sdx5NJ8PFPxrvsHGTpAkM2Bg6s1vdSor/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-info">Download Resume (PDF)</a>
+        <button class="btn btn-outline-success px-4 py-2 fw-medium" onclick="window.location.href='#projects'">View Projects</button>
+        <a href="https://drive.google.com/file/d/1sdx5NJ8PFPxrvsHGTpAkM2Bg6s1vdSor/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success px-4 py-2 fw-medium">Download Resume (PDF)</a>
       </div>
     </section>
 
@@ -91,7 +91,7 @@
 
     <section class="sectiontop" id="projects">
       <div class="container-fluid p-4" id="projects">
-        <h2 class="mb-4">Projects</h2>
+        <h2 class="mb-4 pb-3">Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 g-5 p-4" id="projectContainer">
         </div>
       </div>
@@ -107,24 +107,32 @@
 
     <section class="sectiontop" id="contact">
       <div class="container-fluid p-4">
-        <h2 class="mb-4">Contact</h2>
-        <p>I'm currently open to full-stack development opportunities and web project collaborations. Feel free to reach out!</p>
-        <p>Email: wingtong1809cuhk@gmail.com</p>
-        <a href="mailto:wingtong1809cuhk@gmail.com">
-          <i class="fa-solid fa-envelope contacticon" style="color: var(--primary-green);"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/tommie-tong-89a4a7211/" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin contacticon" style="color: var(--primary-green);"></i>
-        </a>
-        <a href="https://github.com/TommieTKY">
-          <i class="fa-brands fa-square-github contacticon" style="color: var(--primary-green);"></i>
-        </a>
+        <h2 class="mb-5">Contact</h2>
+        <p class="py-4">I'm currently open to full-stack development opportunities and web project collaborations. Feel free to reach out!</p>
+        <div class="d-flex align-items-center justify-content-center gap-2">
+          <p class="mb-0">Email: <span id="userEmail">wingtong1809cuhk@gmail.com</span></p>
+          
+          <button type="button" class="btn btn-outline-success border-0" id="copyEmailBtn" title="Copy email">
+            <i class="fa-regular fa-copy" id="copyIcon"></i>
+          </button>
+        </div>
+        <div class="d-flex justify-content-center align-items-center gap-4 mt-5">
+          <a href="mailto:wingtong1809cuhk@gmail.com" class="text-decoration-none" aria-label="Email">
+            <i class="fa-solid fa-envelope contacticon"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tommie-tong-89a4a7211/" class="text-decoration-none" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin contacticon"></i>
+          </a>
+          <a href="https://github.com/TommieTKY" class="text-decoration-none" aria-label="GitHub">
+            <i class="fa-brands fa-square-github contacticon"></i>
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="container-fluid mt-4 p-3 text-center text-white" style="background-color: var(--primary-green);">
-    <div>&copy; 2026 Kit Ying Tong. All rights reserved.</div>
+  <footer class="container-fluid mt-4 py-4 text-center text-white" style="background-color: var(--primary-green);">
+    <div>&copy; 2026 Tommie Tong. All rights reserved.</div>
   </footer>
 </body>
 

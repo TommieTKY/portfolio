@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="col-12 col-md-6">
           <div class="card h-100 border border-success-subtle shadow-sm rounded-3 p-4">
             <h5 class="fw-bold text-dark border-bottom pb-3 mb-4">${cat.category}</h5>
-            <div class="d-flex flex-wrap gap-3 justify-content-center">
+            <div class="d-flex flex-wrap gap-4 justify-content-center">
               ${cat.skills.map((skill) => `
-                <div class="d-inline-flex align-items-center gap-2 px-2 py-2 rounded border border-light-subtle bg-light">
-                  <img src="${skill.src}" alt="${skill.name}" style="width: 25px; height: 25px; object-fit: contain;" />
-                  <span class="small fw-medium text-dark">${skill.name}</span>
+                <div class="d-inline-flex align-items-center gap-2 px-3 py-2 rounded border border-light-subtle bg-light">
+                  <img src="${skill.src}" alt="${skill.name}" style="width: 30px; height: 30px; object-fit: contain;" />
+                  <span class="fw-medium text-dark">${skill.name}</span>
                 </div>
               `).join("")}
             </div>

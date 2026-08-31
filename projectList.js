@@ -107,7 +107,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
-              <h5 class="card-title fw-bold text-dark mb-3">${project.title}</h5>
+              <h5 class="card-title fw-bold text-dark mb-3">
+                ${project.title}
+                <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success"></i>
+              </h5>
               <p class="card-text text-secondary small">${project.description}</p>
             </div>
             

@@ -48,9 +48,14 @@ h2 {
 }
 
 .contacticon {
-  color: peru;
+  color: var(--primary-green);
   font-size: 5rem;
   margin: 2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contacticon:hover {
+  transform: translateY(-3px) scale(1.1);
 }
 
 .skillicon {
