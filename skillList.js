@@ -6,7 +6,8 @@ const SKILL_CATEGORIES = [
       { name: "CSS3", src: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
       { name: "JavaScript", src: "https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000" },
       { name: "React", src: "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
-      { name: "Next.js", src: "https://img.icons8.com/?size=100&id=AU6Wc7r56Fxz&format=png&color=000000" },
+      { name: "Next.js", src: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" },
+      { name: "TypeScript", src: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
       { name: "Tailwind CSS", src: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" },
       { name: "Bootstrap", src: "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" }
     ]
@@ -15,11 +16,11 @@ const SKILL_CATEGORIES = [
     category: "Backend Development",
     skills: [
       { name: "Node.js", src: "https://img.icons8.com/?size=100&id=54087&format=png&color=000000" },
-      { name: "Express.js", src: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000" },
+      { name: "Express.js", src: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" },
       { name: "ASP.NET Core", src: "https://img.icons8.com/?size=100&id=59890&format=png&color=000000" },
       { name: "C#", src: "https://img.icons8.com/?size=100&id=45490&format=png&color=000000" },
       { name: "Python", src: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000" },
-      { name: "PHP", src: "https://img.icons8.com/?size=100&id=JybIpZjjXT0F&format=png&color=000000" },
+      { name: "PHP", src: "https://img.icons8.com/?size=100&id=10232&format=png&color=000000" },
       { name: "Laravel", src: "https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" }
     ]
   },
@@ -34,7 +35,7 @@ const SKILL_CATEGORIES = [
     category: "Tools & Specialized Tech",
     skills: [
       { name: "Figma", src: "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" },
-      { name: "Canva", src: "https://img.icons8.com/?size=100&id=me9baOv8L5z9&format=png&color=000000" },
+      { name: "Canva", src: "https://img.icons8.com/?size=100&id=EZQdGLNeo7JI&format=png&color=000000" },
       { name: "Unity", src: "https://img.icons8.com/?size=100&id=39848&format=png&color=000000" }
     ]
   }
