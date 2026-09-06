@@ -4,6 +4,7 @@ const SKILL_CATEGORIES = [
     skills: [
       { name: "HTML5", src: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000" },
       { name: "CSS3", src: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
+      { name: "Markdown", src: "https://img.icons8.com/?size=100&id=50145&format=png&color=000000" },
       { name: "JavaScript", src: "https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000" },
       { name: "React", src: "https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" },
       { name: "Next.js", src: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" },
