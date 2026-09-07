@@ -35,9 +35,10 @@ const SKILL_CATEGORIES = [
   {
     category: "Tools & Specialized Tech",
     skills: [
+      { name: "WordPress", src: "https://img.icons8.com/?size=100&id=13664&format=png&color=000000" },
+      { name: "Unity", src: "https://img.icons8.com/?size=100&id=39848&format=png&color=000000" },
       { name: "Figma", src: "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" },
       { name: "Canva", src: "https://img.icons8.com/?size=100&id=EZQdGLNeo7JI&format=png&color=000000" },
-      { name: "Unity", src: "https://img.icons8.com/?size=100&id=39848&format=png&color=000000" }
     ]
   }
 ];
