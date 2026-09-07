@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const projectsHTML = PROJECTLIST.map((project) => {
     const skillsHTML = project.skills.map((skill) =>
-      `<span class="badge rounded-pill bg-success-subtle text-secondary border border-success-subtle fw-normal px-2 py-1">${skill}</span>`
+      `<span class="badge rounded-pill bg-success-subtle border border-success-subtle fw-bolder px-2 py-1" style="color: var(--primary-green);">${skill}</span>`
     ).join("");
 
     return `
