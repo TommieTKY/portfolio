@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const projectsHTML = PROJECTLIST.map((project) => {
     const skillsHTML = project.skills.map((skill) =>
-      `<span class="badge rounded-pill bg-success-subtle border border-success-subtle fw-bolder px-2 py-1" style="color: var(--primary-green);">${skill}</span>`
+      `<span class="badge rounded-pill bg-success-subtle border border-success-subtle px-2 py-1 fw-medium" style="color: var(--primary-green);">${skill}</span>`
     ).join("");
 
     return `
@@ -107,10 +107,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
-              <h5 class="card-title fw-bold text-dark mb-3">
+              <h4 class="card-title fw-bold text-dark mb-3 fs-5">
                 ${project.title}
-                <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success"></i>
-              </h5>
+                <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success" aria-label="External link"></i>
+              </h4>
               <p class="card-text text-secondary small">${project.description}</p>
             </div>
             

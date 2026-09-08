@@ -45,7 +45,7 @@
 
     <section class="container-fluid p-5">
       <h1 class="my-4">Hi, I'm Tommie.</h1>
-      <h3 class="my-5">Accessibility-Focused Web Developer | WordPress Bilingual Developer</h3>
+      <h2 class="my-5 fs-3">Accessibility-Focused Web Developer | WordPress Bilingual Developer</h2>
       <div class="p-4 mb-4 d-flex flex-column gap-4 text-start mx-auto" style="max-width: 900px;">
         <p>
           Full-Stack Web Developer with hands-on experience building end-to-end web applications, designing relational databases, and architecting modern front-end and back-end features.
@@ -55,8 +55,19 @@
         </p>
       </div>
       <div class="d-flex justify-content-center gap-5">
-        <button class="btn btn-outline-success px-4 py-2 fs-5 fw-bold border-2" onclick="window.location.href='#projects'">View Projects</button>
-        <a href="./src/document/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success px-4 py-2 fs-5 fw-bold border-2">Resume (PDF)</a>
+        <button class="btn btn-outline-success px-4 py-2 fs-5 fw-bolder border-1 shadow" onclick="window.location.href='#projects'">View Projects</button>
+        <!-- <a href="./src/document/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success px-4 py-2 fs-5 fw-bolder border-1 shadow">Resume (PDF)</a> -->
+        <a 
+          href="/document/resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="btn btn-outline-success px-4 py-2 fs-5 fw-bolder border-1 shadow"
+          aria-label="Download Resume in PDF format (opens in a new tab)"
+        >
+          <i class="fa-solid fa-file-pdf me-2" aria-hidden="true"></i>
+          Resume (PDF)
+          <span class="visually-hidden">(opens in a new tab)</span>
+        </a>
       </div>
     </section>
 
@@ -113,19 +124,19 @@
         <div class="d-flex align-items-center justify-content-center gap-2">
           <p class="mb-0">Email: <span id="userEmail">wingtong1809cuhk@gmail.com</span></p>
           
-          <button type="button" class="btn btn-outline-success border-0" id="copyEmailBtn" title="Copy email">
+          <button type="button" class="btn btn-outline-success border-0" id="copyEmailBtn" title="Copy email" aria-label="Copy email to clipboard">
             <i class="fa-regular fa-copy" id="copyIcon"></i>
           </button>
         </div>
         <div class="d-flex justify-content-center align-items-center gap-4 mt-5">
           <a href="mailto:wingtong1809cuhk@gmail.com" class="text-decoration-none" aria-label="Email">
-            <i class="fa-solid fa-envelope contacticon"></i>
+            <i class="fa-solid fa-envelope contacticon" aria-label="Icon of Email"></i>
           </a>
           <a href="https://www.linkedin.com/in/tommie-tong-89a4a7211/" class="text-decoration-none" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin contacticon"></i>
+            <i class="fa-brands fa-linkedin contacticon" aria-label="Icon of LinkedIn"></i>
           </a>
           <a href="https://github.com/TommieTKY" class="text-decoration-none" aria-label="GitHub">
-            <i class="fa-brands fa-square-github contacticon"></i>
+            <i class="fa-brands fa-square-github contacticon" aria-label="Icon of GitHub"></i>
           </a>
         </div>
       </div>
