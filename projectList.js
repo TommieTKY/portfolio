@@ -107,10 +107,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
-              <h4 class="card-title fw-bold text-dark mb-3 fs-5">
+              <h3 class="card-title fw-bold text-dark mb-3 fs-5">
                 ${project.title}
                 <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success" aria-label="External link"></i>
-              </h4>
+              </h3>
               <p class="card-text text-secondary small">${project.description}</p>
             </div>
             
