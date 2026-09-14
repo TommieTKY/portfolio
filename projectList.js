@@ -102,14 +102,14 @@ document.addEventListener("DOMContentLoaded", () => {
       <a href="${project.link}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
         <div class="card h-100 border border-secondary-subtle shadow-sm rounded-3">          
           <div class="ratio ratio-16x9 border-bottom border-light-subtle">
-            <img src="${project.image}" class="card-img-top" alt="${project.title}">
+            <img src="${project.image}" class="card-img-top object-fit-cover" alt="${project.title}">
           </div>
 
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
               <h3 class="card-title fw-bold text-dark mb-3 fs-5">
                 ${project.title}
-                <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success" aria-label="External link"></i>
+                <i class="fa-solid fa-arrow-up-right-from-square fs-6 text-success" aria-hidden="true"></i>
               </h3>
               <p class="card-text text-secondary small">${project.description}</p>
             </div>
