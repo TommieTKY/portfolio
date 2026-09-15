@@ -102,7 +102,15 @@ document.addEventListener("DOMContentLoaded", () => {
       <a href="${project.link}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
         <div class="card h-100 border border-secondary-subtle shadow-sm rounded-3">          
           <div class="ratio ratio-16x9 border-bottom border-light-subtle">
-            <img src="${project.image}" class="card-img-top object-fit-cover" alt="${project.title}">
+            <img 
+              src="${project.image}" 
+              class="card-img-top object-fit-cover" 
+              alt="${project.title}"
+              loading="lazy" 
+              decoding="async"
+              width="600" 
+              height="338"
+            >
           </div>
 
           <div class="card-body d-flex flex-column justify-content-between p-4">
